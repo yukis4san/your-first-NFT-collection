@@ -3,7 +3,7 @@ import twitterLogo from './assets/twitter-logo.svg';
 import React from "react";
 
 // Constants
-const TWITTER_HANDLE = 'Twitterのハンドルネーム';
+const TWITTER_HANDLE = 'あなたのTwitterのハンドルネームを貼り付けてください';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
@@ -22,7 +22,7 @@ const App = () => {
         <div className="header-container">
           <p className="header gradient-text">My NFT Collection</p>
           <p className="sub-text">
-            あなたの特別なNFTを探しませんか？🔮
+            あなたの特別なNFTを見つけよう💫
           </p>
           {renderNotConnectedContainer()}
         </div>
