@@ -22,7 +22,7 @@ const App = () => {
         <div className="header-container">
           <p className="header gradient-text">My NFT Collection</p>
           <p className="sub-text">
-            あなたの特別なNFTを見つけよう💫
+            あなただけの特別な NFT を Mint しよう💫
           </p>
           {renderNotConnectedContainer()}
         </div>
